@@ -1,0 +1,119 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #d9d9d9;
+  color: #666666;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+tr:third-child {
+  background-color: #bfbfbf;
+}
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+  color: #666666;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+th:first-child {
+  background-color: #cccccc;
+  color: #4d4d4d;
+}
+
+th:nth-child(2) {
+  background-color: #e6e6e6;
+  color: #4d4d4d;
+}
+
+th:nth-child(3) {
+  background-color: #e6e6e6;
+  text-align: right;
+  color: #4d4d4d;
+}
+
+.custom-weight {
+  font-weight: bold;
+  color: #737373;
+}
+.custom-font {
+  font-size: 18px;
+}
+.balance {
+  text-align: right;
+}
+.account {
+  color: #0099cc;
+  font-weight: bold;
+  font-size: 18px;
+}
+.negative {
+  font-size: 12px;
+  color: red;
+}
+.positive {
+  color: green;
+  font-size: 12px;
+}
+.card {
+  width: 435px;
+  background-color: #3a3b3c;
+  padding: 20px;
+  border-radius: 25px;
+  height: 225px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.sortbar {
+  margin-bottom: 15px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.sortBy {
+  font-family: sans-serif;
+  margin-top: 5px;
+  color: #808080;
+  margin-right: 3px;
+}
+
+.headerRowTabs {
+  font-family: sans-serif;
+}
+.sortbar button {
+  color: #e6e6e6;
+  outline: none;
+  padding: 5px 10px;
+  height: 29px;
+}
+.name_button {
+  background-color: black;
+  border-bottom: 3px solid #ffaf42;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+}
+.account_button {
+  background-color: #595959;
+  border: none;
+  margin-left: -4px;
+  font-size: 16px;
+}
+
+.balance_button {
+  background-color: #595959;
+  border: none;
+  margin-left: -2px;
+  font-size: 16px;
+}
